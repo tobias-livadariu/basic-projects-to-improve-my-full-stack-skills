@@ -22,3 +22,28 @@ html {
   display: inline-block;
   text-align: center;
 }
+
+.task-adder {
+  border: 0.2rem solid #2E4057;
+}
+
+.task-adder-header {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.task-add-label {
+  font-weight: 600;
+  margin-right: 0.32rem;
+}
+
+.task-add-form {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-add-button {
+  width: 45%;
+  margin: 0.3rem;
+}
