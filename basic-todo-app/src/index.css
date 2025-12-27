@@ -2,22 +2,23 @@
 Main colors for this app:
 Charcoal blue: #2E4057 (3)
 Seagrass: #66A182 (2)
-Tea Green: #CAFFB9 (1)
+Tea Green: #ECFFE6 (1)
 Light Green: #AEF78E (Misc for minor highlight)
 Yellow Green: #C0D461 (Misc for major highlight)
 */
 
 html {
-  background-color: #CAFFB9;
+  background-color: #ECFFE6;
   color: #2E4057;
 }
 
 .main-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.main-header {
+.subblock {
   display: inline-block;
   text-align: center;
 }
